@@ -33,9 +33,11 @@ public class HelloWorldController {
     }
 
     private Map<String, String> getResponse() throws UnknownHostException {
+		
         String host = InetAddress.getLocalHost().getHostName();
         String ip = InetAddress.getLocalHost().getHostAddress();
         Map<String, String> response = new HashMap<>();
+		response.put(Deployment_ Status, "Application deployed successfully!");
         response.put(MESSAGE_KEY, "Hello World!");
         response.put(HOSTNAME_KEY, host);
         response.put(IP_KEY, ip);
