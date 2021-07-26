@@ -1,4 +1,4 @@
-# Spring Boot Hello World API
+# K8s Service - Spring Boot API
 
 This is a small Spring-Boot Hello World application to demonstrate a quick and simple API.
 
